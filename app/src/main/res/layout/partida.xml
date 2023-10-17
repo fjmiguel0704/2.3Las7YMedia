@@ -7,10 +7,10 @@
     android:background="#17421C">
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/puntuacionJ1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Puntuación"
+        android:text="0.0"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.73" />
 
     <TextView
-        android:id="@+id/nombreJugador2"
+        android:id="@+id/mostrarNomJugador2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotationX="-178"
@@ -28,7 +28,7 @@
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintHorizontal_bias="0.934"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
@@ -120,7 +120,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/nombreJugador1"
+        android:id="@+id/mostrarNomJugador1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#FFFFFF"
@@ -132,12 +132,12 @@
         app:layout_constraintVertical_bias="0.977" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/puntuacionJ2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:rotationX="-178"
         android:rotationY="-178"
-        android:text="Puntuación"
+        android:text="0.0"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
