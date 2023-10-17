@@ -8,6 +8,7 @@ import com.example.a7ymedia.databinding.PartidaBinding
 class MainActivity : AppCompatActivity() {
     lateinit var bindingActivityMain: ActivityMainBinding
     lateinit var bindingPartida: PartidaBinding
+    var puntuacionGanadora = 7.5
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,7 +26,21 @@ class MainActivity : AppCompatActivity() {
                 bindingActivityMain.errorDatos.text = "¡Los nombre no pueden estar vacíos!"
             } else {
                 setContentView(bindingPartida.root)
+                bindingPartida.mostrarNomJugador1.text = bindingActivityMain.nombreJugador1.text.toString()
+                bindingPartida.mostrarNomJugador2.text = bindingActivityMain.nombreJugador2.text.toString()
             }
         }
+        fun turnoJugador(): Int{
+            return (1..2).random()
+        }
+
+        var turno = turnoJugador()
+
+        //while (bindingPartida.puntuacionJ1>puntuacionGanadora)
+
+        //if turno == 1{
+        //    bindingPartida.cartaJugador1.isEnabled(false)
+       // }
+
     }
 }
